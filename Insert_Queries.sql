@@ -1,4 +1,5 @@
 --Farmer
+<<<<<<< HEAD
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Dewain', 'Stannering', 'dstannering0@networkadvertising.org', '92844', '7141783685', '21 Waubesa Circle', 'Garden Grove', 'California');
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Gabe', 'Bantock', 'gbantock1@theguardian.com', '94712', '5104297727', '17495 Mitchell Avenue', 'Berkeley', 'California');
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Raddie', 'Dangl', 'rdangl2@newsvine.com', '95405', '7072248597', '85043 Clove Pass', 'Santa Rosa', 'California');
@@ -24,6 +25,83 @@ insert into Farmer (first_name, last_name, email, zip_code, contact_number, curr
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Faith', 'Tolchard', 'ftolchardm@arizona.edu', '94132', '4152708328', '5 American Hill', 'San Francisco', 'California');
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Amandi', 'Ranshaw', 'aranshawn@hubpages.com', '92648', '7141749189', '3514 Utah Street', 'Huntington Beach', 'California');
 insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Mercy', 'Szymanski', 'mszymanskio@jugem.jp', '94154', '4157226364', '6030 Dunning Crossing', 'San Francisco', 'California');
+=======
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Dewain', 'Stannering', 'dstannering0@networkadvertising.org', '92844', '7141783685', '21 Waubesa Circle', 'Garden Grove', 'California', 33.774270, -117.946438);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Gabe', 'Bantock', 'gbantock1@theguardian.com', '94712', '5104297727', '17495 Mitchell Avenue', 'Berkeley', 'California', 37.867731, -122.260123);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Raddie', 'Dangl', 'rdangl2@newsvine.com', '95405', '7072248597', '85043 Clove Pass', 'Santa Rosa', 'California', 38.440467, -122.714431);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Kurtis', 'Bradlaugh', 'kbradlaugh3@homestead.com', '94164', '4155973672', '99114 Loeprich Street', 'San Francisco', 'California', 37.774929, -122.419416);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Alfy', 'Batiste', 'abatiste4@samsung.com', '94105', '4153448019', '4 Moland Lane', 'San Francisco', 'California', 37.789226, -122.401376);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('James', 'Tenant', 'jtenant5@hibu.com', '94121', '4154143715', '499 Hauk Lane', 'San Francisco', 'California', 37.779304, -122.485139);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Travus', 'Bollam', 'tbollam6@jiathis.com', '92645', '7144738453', '5016 Marcy Junction', 'Garden Grove', 'California', 33.774302, -117.946964);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Indira', 'Cubbon', 'icubbon7@census.gov', '94297', '9167309821', '261 5th Alley', 'Sacramento', 'California', 38.581572, -121.494400);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Galina', 'Larvent', 'glarvent8@blogtalkradio.com', '92619', '9492466002', '4 Cambridge Trail', 'Irvine', 'California', 33.684567, -117.826505);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Harlie', 'Kingdon', 'hkingdon9@dell.com', '90847', '5627413920', '94425 Hoffman Avenue', 'Long Beach', 'California', 33.770050, -118.193739);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Letisha', 'Bellew', 'lbellewa@statcounter.com', '91109', '8188363550', '10 Sommers Hill', 'Pasadena', 'California', 34.147785, -118.144516);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Nixie', 'Balding', 'nbaldingb@mail.ru', '94263', '9161537946', '63 Butterfield Point', 'Sacramento', 'California', 38.573936, -121.487116);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Muire', 'Haggerwood', 'mhaggerwoodc@imageshack.us', '92405', '9098880844', '12514 Warbler Parkway', 'San Bernardino', 'California', 34.108345, -117.289765);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Ronni', 'McCague', 'rmccagued@sourceforge.net', '92153', '6199170998', '1 Rieder Drive', 'San Diego', 'California', 32.715736, -117.161087);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Lorens', 'Golagley', 'lgolagleye@comcast.net', '91616', '2136240713', '724 Tennessee Plaza', 'North Hollywood', 'California', 34.172229, -118.378972);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Bendicty', 'French', 'bfrenchf@ifeng.com', '91328', '8182138653', '75154 Eastlawn Drive', 'Northridge', 'California', 34.228343, -118.536072);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Donni', 'Antoshin', 'dantoshing@storify.com', '94913', '4159502728', '95710 Dapin Lane', 'San Rafael', 'California', 37.973535, -122.531087);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Moyna', 'De Filippis', 'mdefilippish@msn.com', '94297', '9166488378', '145 Hayes Way', 'Sacramento', 'California', 38.581572, -121.494400);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Shea', 'Gye', 'sgyei@java.com', '92170', '6198952402', '26 Laurel Way', 'San Diego', 'California', 32.715736, -117.161087);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Paulie', 'Hugonet', 'phugonetj@dagondesign.com', '94154', '4152853089', '9 Autumn Leaf Plaza', 'San Francisco', 'California', 37.774929, -122.419416);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Cristen', 'Kingswell', 'ckingswellk@marketwatch.com', '90189', '2134312508', '5685 Prentice Place', 'Los Angeles', 'California', 34.052235, -118.243683);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Ransom', 'Southall', 'rsouthalll@hhs.gov', '94705', '5109251506', '3037 Kingsford Hill', 'Berkeley', 'California', 37.867731, -122.260123);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Faith', 'Tolchard', 'ftolchardm@arizona.edu', '94132', '4152708328', '5 American Hill', 'San Francisco', 'California', 37.728872, -122.483998);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Amandi', 'Ranshaw', 'aranshawn@hubpages.com', '92648', '7141749189', '3514 Utah Street', 'Huntington Beach', 'California', 33.659484, -117.998803);
+
+insert into Farmer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, lat, long) 
+values ('Mercy', 'Szymanski', 'mszymanskio@jugem.jp', '94154', '4157226364', '6030 Dunning Crossing', 'San Francisco', 'California', 37.769193, -122.174041);
+
+>>>>>>> ba5d891 (Modified diagrams, DDL, insert and query 2,4)
 
 --Expense_Category
 INSERT INTO Expense_Category (category_name, description) VALUES ("Machinery and Tools" , "Installation of irigation systen, Sprayers, pruners, cutting tools, packaging material");
@@ -438,6 +516,7 @@ INSERT INTO Farmer_Expense (farmer_id, expense_id) VALUES ('25', '199');
 INSERT INTO Farmer_Expense (farmer_id, expense_id) VALUES ('21', '200');
 
 --Customer
+<<<<<<< HEAD
 insert into Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Idell', 'Gerritsma', 'igerritsma0@ox.ac.uk', '95160', '4088920129', '1065 Ilene Center', 'San Jose', 'California');
 insert into Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Magdalena', 'Jendrich', 'mjendrich1@feedburner.com', '94250', '9165165037', '2 Hudson Trail', 'Sacramento', 'California');
 insert into Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state) values ('Alexi', 'Frankcom', 'afrankcom2@cyberchimps.com', '95865', '9167352609', '252 Mariners Cove Drive', 'Sacramento', 'California');
@@ -749,3 +828,249 @@ INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) VALUES
 INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) VALUES (48, "Credit/Debit Card", "377.00", "2024-05-29");
 INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) VALUES (49, "Credit/Debit Card", "1110.00", "2024-05-22");
 INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) VALUES (50, "Credit/Debit Card", "330.00", "2024-05-25");
+=======
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Idell', 'Gerritsma', 'igerritsma0@ox.ac.uk', '95160', '4088920129', '1065 Ilene Center', 'San Jose', 'California', 37.3382, -121.8863);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Magdalena', 'Jendrich', 'mjendrich1@feedburner.com', '94250', '9165165037', '2 Hudson Trail', 'Sacramento', 'California', 38.5816, -121.4944);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Alexi', 'Frankcom', 'afrankcom2@cyberchimps.com', '95865', '9167352609', '252 Mariners Cove Drive', 'Sacramento', 'California', 38.5816, -121.4944);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Barny', 'Perrelle', 'bperrelle3@google.com.hk', '90505', '3102935688', '6466 Bluestem Point', 'Torrance', 'California', 33.8358, -118.3406);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Antonie', 'Breznovic', 'abreznovic4@sitemeter.com', '92165', '6199844941', '24355 Texas Street', 'San Diego', 'California', 32.7157, -117.1611);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Ingrid', 'Justham', 'ijustham5@plala.or.jp', '95818', '5302548381', '488 Lien Point', 'Sacramento', 'California', 38.5816, -121.4944);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Morey', 'Paulou', 'mpaulou6@ca.gov', '92668', '7604717007', '6707 Onsgard Point', 'Orange', 'California', 33.7879, -117.8531);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Tatum', 'Hugli', 'thugli7@berkeley.edu', '90025', '3103352766', '2437 Trailsway Center', 'Los Angeles', 'California', 34.0522, -118.2437);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Donnie', 'Kaming', 'dkaming8@timesonline.co.uk', '92612', '7142016253', '38 Ruskin Hill', 'Irvine', 'California', 33.6846, -117.8265);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Norrie', 'Ellen', 'nellen9@dailymotion.com', '92056', '7603480714', '127 Evergreen Road', 'Oceanside', 'California', 33.1959, -117.3795);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Daryl', 'Beharrell', 'dbeharrella@altervista.org', '90410', '3102234383', '77621 Killdeer Place', 'Santa Monica', 'California', 34.0195, -118.4912);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Aleta', 'Morriarty', 'amorriartyb@nba.com', '90076', '3236842791', '7332 Spohn Avenue', 'Los Angeles', 'California', 34.0522, -118.2437);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Normy', 'Burge', 'nburgec@vinaora.com', '94975', '7079538650', '7 Quincy Street', 'Petaluma', 'California', 38.2324, -122.6367);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Filide', 'Plank', 'fplankd@ifeng.com', '94807', '5109821079', '4 Rutledge Drive', 'Richmond', 'California', 37.9358, -122.3477);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Rafferty', 'Bausor', 'rbausore@youku.com', '94302', '3104057296', '7538 4th Road', 'Palo Alto', 'California', 37.4419, -122.1430);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Ralf', 'Breckin', 'rbreckinf@dagondesign.com', '93907', '8318850813', '479 Manufacturers Point', 'Salinas', 'California', 36.6777, -121.6555);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Garrott', 'Christley', 'gchristleyg@vkontakte.ru', '96154', '5307299401', '075 Gateway Way', 'South Lake Tahoe', 'California', 38.9332, -119.9843);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Julee', 'Burnall', 'jburnallh@gmpg.org', '91125', '6264658428', '41 Talisman Point', 'Pasadena', 'California', 34.1478, -118.1445);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Leicester', 'Fanton', 'lfantoni@twitpic.com', '95194', '4085812835', '460 Northfield Center', 'San Jose', 'California', 37.3382, -121.8863);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Berti', 'Gallandre', 'bgallandrej@huffingtonpost.com', '90840', '5626787475', '98 Superior Hill', 'Long Beach', 'California', 33.7701, -118.1937);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Tomasina', 'Corcoran', 'tcorcorank@guardian.co.uk', '91199', '6267307779', '8522 Acker Center', 'Pasadena', 'California', 34.1478, -118.1445);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Amity', 'Spikeings', 'aspikeingsl@skype.com', '93111', '8053756244', '596 Beilfuss Drive', 'Santa Barbara', 'California', 34.4208, -119.6982);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Enrica', 'Eckert', 'eeckertm@typepad.com', '92705', '6197371478', '8 Redwing Center', 'Santa Ana', 'California', 33.7455, -117.8677);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Barbara-anne', 'Paunsford', 'bpaunsfordn@sbwire.com', '95173', '4086719644', '74 Merrick Lane', 'San Jose', 'California', 37.3382, -121.8863);
+
+INSERT INTO Customer (first_name, last_name, email, zip_code, contact_number, current_address, city, state, latitude, longitude) 
+VALUES ('Theressa', 'Chillistone', 'tchillistoneo@nbcnews.com', '91715', '9094416543', '9521 Weeping Birch Pass', 'Pomona', 'California', 34.0553, -117.7523);
+
+
+--Harvest
+INSERT INTO Harvest (farmer_id, product_id, quantity_in_bundles, created_at) VALUES
+(1, 1, 100, '2024-05-22'),
+(2, 2, 150, '2024-05-22'),
+(3, 3, 200, '2024-05-22'),
+(4, 1, 100, '2024-05-23'),
+(5, 2, 150, '2024-05-23'),
+(6, 3, 200, '2024-05-23'),
+(1, 1, 100, '2024-05-24'),
+(2, 2, 150, '2024-05-24'),
+(3, 3, 200, '2024-05-24');
+
+--Product_Cost
+INSERT INTO Product_Cost (product_id, price_per_bundle, created_at) VALUES
+(1, 24.00, '2024-05-22'),
+(2, 14.40, '2024-05-22'),
+(3, 12.00, '2024-05-22'),
+(1, 30.00, '2024-05-23'),
+(2, 18.00, '2024-05-23'),
+(3, 14.40, '2024-05-23'),
+(1, 30.00, '2024-05-24'),
+(2, 18.00, '2024-05-24'),
+(3, 14.40, '2024-05-24'),
+(1, 36.00, '2024-05-25'),
+(2, 6.00, '2024-05-25'),
+(3, 7.20, '2024-05-25'),
+(1, 38.40, '2024-05-26'),
+(2, 8.40, '2024-05-26'),
+(3, 9.60, '2024-05-26'),
+(1, 24.00, '2024-05-27'),
+(2, 14.40, '2024-05-27'),
+(3, 12.00, '2024-05-27');
+
+--Product
+INSERT INTO product (product_name,description) values ("White Jasmine", "Fresh pleasant aroma");
+INSERT INTO product (product_name,description) values ("Pink Jasmine", "Jasmine that grows only during rainy season and is very mild");
+INSERT INTO product (product_name,description) values ("Crossandra", "Add pop of color to your venue with bright orange colored flowers");
+
+--Base_Market_Incentive
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (1,'$20.00', '2024-05-22');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (2,'$12.00', '2024-05-22');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (3,'$10.00', '2024-05-22');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (1,'$25.00', '2024-05-23');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (2,'$15.00', '2024-05-23');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (3,'$12.00', '2024-05-23');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (1,'$25.00', '2024-05-24');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (2,'$15.00', '2024-05-24');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (3,'$12.00', '2024-05-24');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (1,'$30.00', '2024-05-25');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (2,'$5.00', '2024-05-25');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (3,'$6.00', '2024-05-25');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (1,'$32.00', '2024-05-26');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (2,'$7.00', '2024-05-26');
+INSERT INTO Base_Market_Incentive (product_id, price, date) values (3,'$8.00', '2024-05-26');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$20.00', '2024-05-27');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$12.00', '2024-05-27');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$10.00', '2024-05-27');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$22.00', '2024-05-28');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$13.00', '2024-05-28');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$11.00', '2024-05-28');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$23.00', '2024-05-29');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$14.00', '2024-05-29');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$12.00', '2024-05-29');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$25.00', '2024-05-30');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$15.00', '2024-05-30');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$12.00', '2024-05-30');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$30.00', '2024-05-31');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$5.00', '2024-05-31');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$6.00', '2024-05-31');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$32.00', '2024-06-01');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$7.00', '2024-06-01');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (3, '$8.00', '2024-06-01');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (1, '$20.00', '2024-06-02');
+INSERT INTO Base_Market_Incentive (product_id, price, date) VALUES (2, '$12.00', '2024-06-02');
+
+
+--Orders
+INSERT INTO Orders (customer_id, product_id, shipping_address, created_at) VALUES
+(1, 1, '123 Blossom St', '2024-05-22'),
+(2, 2, '456 Flower Rd', '2024-05-22'),
+(3, 3, '789 Jasmine Ln', '2024-05-22'),
+(4, 1, '101 Petal Ave', '2024-05-23'),
+(5, 2, '202 Blossom Blvd', '2024-05-23'),
+(6, 3, '303 Petunia St', '2024-05-23');
+
+--Order_detail
+INSERT INTO Order_Detail (product_id, order_id, quantity, total_price, created_at) VALUES
+(1, 1, 5, 120.00, '2024-05-22'),
+(2, 2, 3, 43.20, '2024-05-22'),
+(3, 3, 4, 48.00, '2024-05-22'),
+(1, 4, 2, 60.00, '2024-05-23'),
+(2, 5, 6, 108.00, '2024-05-23'),
+(3, 6, 3, 43.20, '2024-05-23');
+
+--Transactions
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (1, 'Processing', '2024-05-22 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (1, 'Shipped', '2024-05-22 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (1, 'Complete', '2024-05-22 14:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (2, 'Processing', '2024-05-23 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (2, 'Shipped', '2024-05-23 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (2, 'Complete', '2024-05-23 14:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (3, 'Processing', '2024-05-24 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (3, 'Shipped', '2024-05-24 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (3, 'Complete', '2024-05-24 14:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (4, 'Processing', '2024-05-25 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (4, 'Shipped', '2024-05-25 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (4, 'Complete', '2024-05-25 14:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (5, 'Processing', '2024-05-26 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (5, 'Shipped', '2024-05-26 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (5, 'Complete', '2024-05-26 14:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (6, 'Processing', '2024-05-27 08:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (6, 'Shipped', '2024-05-27 10:00:00');
+
+INSERT INTO Transactions (order_id, order_status, timestamp) 
+VALUES (6, 'Complete', '2024-05-27 14:00:00');
+
+--payment
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (1, 'Credit/Debit Card', 120.00, '2024-05-22 15:00:00');
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (2, 'UPI', 43.20, '2024-05-23 15:00:00');
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (3, 'Cash', 48.00, '2024-05-24 15:00:00');
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (4, 'Credit/Debit Card', 60.00, '2024-05-25 15:00:00');
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (5, 'UPI', 108.00, '2024-05-26 15:00:00');
+
+INSERT INTO Payment (order_id, payment_method, amount_paid, payment_date) 
+VALUES (6, 'Cash', 43.20, '2024-05-27 15:00:00');
+>>>>>>> ba5d891 (Modified diagrams, DDL, insert and query 2,4)

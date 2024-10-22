@@ -101,7 +101,11 @@ CREATE TABLE "Transactions" (
 	"timestamp"	TEXT DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY("transaction_id" AUTOINCREMENT),
 	FOREIGN KEY("order_id") REFERENCES "Orders"("order_id")
+<<<<<<< HEAD
 );
+=======
+)
+>>>>>>> ba5d891 (Modified diagrams, DDL, insert and query 2,4)
 CREATE TABLE "Payment" (
 	"payment_id"	INTEGER NOT NULL,
 	"order_id"	INTEGER,

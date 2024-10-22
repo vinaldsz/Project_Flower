@@ -13,7 +13,11 @@ JOIN
 JOIN 
     Expense e ON fe.expense_id = e.expense_id
 JOIN 
+<<<<<<< HEAD
     Inventory i ON f.farmer_id = i.farmer_id
+=======
+    Harvest i ON f.farmer_id = i.farmer_id
+>>>>>>> ba5d891 (Modified diagrams, DDL, insert and query 2,4)
 WHERE 
     f.state = 'California'
 GROUP BY 
