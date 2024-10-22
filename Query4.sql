@@ -1,4 +1,4 @@
--- Complex search : This query retrieves farmers who have incurred expenses over $500, who have more than one product in their inventory, and who are located in a specific state (e.g., "California")
+-- Complex search :   This query retrieves farmers who have incurred expenses over $500, who have more than one product in their inventory, and who are located in a specific state (e.g., "California")
 
 SELECT 
     f.farmer_id,

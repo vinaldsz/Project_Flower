@@ -1,4 +1,4 @@
--- subquery: All the orders placed by Enrica Eckert
+-- subquery:   All the orders placed by Enrica Eckert
 SELECT * 
 FROM Orders
 Where customer_id in (

@@ -1,3 +1,4 @@
+--DDL to create all tables in the DB
 CREATE TABLE "Farmer" (
 	"farmer_id"	INTEGER NOT NULL,
 	"first_name"	TEXT,
