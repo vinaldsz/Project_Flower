@@ -8,6 +8,8 @@ CREATE TABLE "Farmer" (
 	"current_address"	TEXT,
 	"city"	TEXT,
 	"state"	TEXT,
+	"lat" REAL,
+	"long" REAL,
 	PRIMARY KEY("farmer_id" AUTOINCREMENT)
 );
 CREATE TABLE "Expense_Category" (
@@ -33,25 +35,29 @@ CREATE TABLE "Farmer_Expense" (
 CREATE TABLE "Product" (
 	"product_id"	INTEGER NOT NULL,
 	"product_name"	TEXT,
-	"description"	TEXT,
 	PRIMARY KEY("product_id" AUTOINCREMENT)
+);
+CREATE TABLE "Product_Cost" (
+	"product_id"	INTEGER NOT NULL,
+	"price_per_bundle"	REAL,
+	"created_at" TEXT,
+	PRIMARY KEY("product_id","created_at"),
+	FOREIGN KEY("product_id") REFERENCES "Product"("product_id")
 );
 CREATE TABLE "Base_Market_Incentive" (
 	"product_id"	INTEGER,
-	"price"	TEXT,
+	"price"	REAL,
 	"date"	TEXT,
 	PRIMARY KEY("product_id","date"),
 	FOREIGN KEY("product_id") REFERENCES "Product"("product_id")
 );
-CREATE TABLE "Inventory" (
+CREATE TABLE "Harvest" (
 	"farmer_id"	INTEGER NOT NULL,
 	"product_id"	INTEGER NOT NULL,
 	"quantity_in_bundles"	INTEGER,
-	"selling_price_per_bundle"	REAL,
-	"reserved_quantity"	INTEGER,
 	"updated_at"	TEXT DEFAULT CURRENT_TIMESTAMP,
-	"date"	TEXT NOT NULL,
-	PRIMARY KEY("product_id","farmer_id","date"),
+	"created_at"	TEXT NOT NULL,
+	PRIMARY KEY("product_id","farmer_id","created_at"),
 	FOREIGN KEY("farmer_id") REFERENCES "Farmer"("farmer_id"),
 	FOREIGN KEY("product_id") REFERENCES "Product"("product_id")
 );
@@ -65,32 +71,37 @@ CREATE TABLE "Customer" (
 	"current_address"	TEXT,
 	"city"	TEXT,
 	"state"	TEXT,
-	"updated_at"	TEXT DEFAULT CURRENT_TIMESTAMP,
+	"latitude" REAL,
+	"longitude" REAL,
 	PRIMARY KEY("customer_id" AUTOINCREMENT)
 );
 CREATE TABLE "Orders" (
 	"order_id"	INTEGER,
 	"customer_id"	INTEGER,
-	"order_status"	TEXT,
-	"order_total"	REAL,
-	"quantity_in_bundles"	INTEGER,
-	"price_at_purchase"	INTEGER,
 	"shipping_address"	INTEGER,
 	"created_at"	TEXT,
-	"updated_at"	TEXT DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY("order_id" AUTOINCREMENT),
 	FOREIGN KEY("customer_id") REFERENCES "Customer"("customer_id")
 );
-CREATE TABLE "Inventory_Orders" (
-	"farmer_id"	INTEGER,
+CREATE TABLE "Order_Detail" (
+	"order_detail_id"	INTEGER,
 	"product_id"	INTEGER,
 	"order_id"	INTEGER,
-	"date"	TEXT,
-	FOREIGN KEY("date") REFERENCES "Inventory"("date"),
-	FOREIGN KEY("farmer_id") REFERENCES "Inventory"("farmer_id"),
+	"quantity"	TEXT,
+	"total_price" REAL,
+	"created_at" TEXT,
+	PRIMARY KEY("order_detail_id" AUTOINCREMENT),
 	FOREIGN KEY("order_id") REFERENCES "Orders"("order_id"),
 	FOREIGN KEY("product_id") REFERENCES "Inventory"("product_id")
-)
+);
+CREATE TABLE "Transactions" (
+	"transaction_id"	INTEGER,
+	"order_id"	INTEGER,
+	"order_status"	TEXT CHECK(order_status in ("Processing","Shipped","Complete")),
+	"timestamp"	TEXT DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY("transaction_id" AUTOINCREMENT),
+	FOREIGN KEY("order_id") REFERENCES "Orders"("order_id")
+);
 CREATE TABLE "Payment" (
 	"payment_id"	INTEGER NOT NULL,
 	"order_id"	INTEGER,
