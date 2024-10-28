@@ -8,7 +8,7 @@ Describe the requirements of the problem with a simple document that lists the r
 Requirements.pdf
 
 Analyze the problem and create a conceptual model in UML using a tool of your choice (e.g., LucidChart, Enterprise Architect, ArgoUML, Visual Paradigm, ERwin, TOAD) as discussed during class and provided in the references and resources below. Additional requirements and clarifications will be provided in the #general channel on Slack. The diagram must contain at least three classes, at least one to many relationship and one many to many. All relationships, except generalization, must have full multiplicity constraints and labeled as appropriate. Classes must have proper names, descriptions, and attributes with domain types. Try to avoid building a model with more than 10 entities.  
-UML_Class_Diagram.JPG
+UML_Class_Diagram.PNG
 
 From the Conceptual Model, construct a logical data model expressed as an ERD using a language of your choice (other than UML) and a tool of your choice. The logical data model may not have any many-to-many relationships, so introduce association entities as needed.  
 ERD_Crow_Foot.JPG
@@ -18,7 +18,7 @@ BCNF.pdf
 
 Create a set of SQL data definition statements for the above model and realize that schema in SQLite3 by executing the script from the SQLite3, the console or Node. You can use DB Browser to generate these statements.  
 
-flower.db  
+ProjectFlora.db  
 flower_DDL.sql
 
 Populate the tables with test data.  
